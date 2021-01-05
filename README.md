@@ -22,6 +22,7 @@ Status Travic CI-ja :https://travis-ci.com/github/sabinca97/mojRepozitorij
     - ukaz ```mvn clean package```
     - gradnjo sliko zaženemo z ukazom ```docker build -t sabinca97/novaslika:1 .```
     - push slike v dockerhub ```docker push sabinca97/novaslika:1```
+    - lokalno zagnat sliko ```docker run -p 8080:8080 sabinca97/novaslika:1```
 
 ### Kubernetes
 - Microsoft Azur "mojRso"
