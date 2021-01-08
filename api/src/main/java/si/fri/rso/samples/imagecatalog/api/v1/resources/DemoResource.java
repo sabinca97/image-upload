@@ -27,7 +27,7 @@ public class DemoResource {
     @Path("break")
     public Response makeUnhealthy() {
 
-        restProperties.setBroken(false);
+        restProperties.setBroken(true);
 
         return Response.status(Response.Status.OK).build();
     }
